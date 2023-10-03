@@ -1,0 +1,44 @@
+body {
+    font-size: 15px;
+    background-color: #d2e0fb;
+}
+
+h1, h2, p, b {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: #183d3d;
+}
+
+.navigation {
+    margin: 20px;
+    padding: 15px;
+}
+
+.navigation a {
+    list-style-type: none;
+    text-decoration-line: none;
+    padding: 10px;
+}
+
+a {
+    padding: 5px;
+    margin: 10px;
+    color: #ecead1;
+    font-size: 20px;
+    background-color: #618264;
+    border-radius: 15px;
+}
+
+a:hover {
+    background-color: #8b9b65fd;
+    color: #a0b2cc;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .navigation, a {
+        padding: auto;
+        margin: auto;
+        align-items: center;
+        display: flex;
+    }
+}
